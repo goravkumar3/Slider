@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    display: flex;
+}
+.img{
+    position: relative;
+}
+.Icons{
+    width: 100%;
+    position: absolute;
+    top: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+.Icons>img{
+    width: 4%;
+    /* filter: invert(); */
+    cursor: pointer;
+    /* background-color: blue; */
+    box-shadow: 0px 0px 2px 4px #1212;
+}
